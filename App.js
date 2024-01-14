@@ -28,7 +28,7 @@ export default function App() {
       />
       <Text style={styles.field}>Hr Limit</Text>
       <Text style={styles.field}>{low} - {up}</Text>
-      {/* <Button title ="hr" onPress={hr}></Button> */}
+      <Button title ="Calculate" onPress={hr}></Button>
       <StatusBar style="auto" />
     </View>
   );
